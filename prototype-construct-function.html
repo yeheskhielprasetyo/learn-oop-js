@@ -26,9 +26,18 @@
         }
 
         const eki = new Person("eki", "eko")
+        eki.sayBye = function(){
+            console.info("hi")
+        }
         const budi = new Person("budi", "budo")
+        budi.sayBye = function(){
+            console.info("hi")
+        }
         console.log(eki)
         console.log(budi)
+
+        eki.sayBye()
+        budi.sayBye()
 
     </script>
 </body>
